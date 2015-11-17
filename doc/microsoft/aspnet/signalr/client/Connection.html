@@ -1,0 +1,1027 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<!-- NewPage -->
+<html lang="en">
+<head>
+<title>Connection</title>
+<link rel="stylesheet" type="text/css" href="../../../../stylesheet.css" title="Style">
+</head>
+<body>
+<script type="text/javascript"><!--
+    if (location.href.indexOf('is-external=true') == -1) {
+        parent.document.title="Connection";
+    }
+//-->
+</script>
+<noscript>
+<div>JavaScript is disabled on your browser.</div>
+</noscript>
+<!-- ========= START OF TOP NAVBAR ======= -->
+<div class="topNav"><a name="navbar_top">
+<!--   -->
+</a><a href="#skip-navbar_top" title="Skip navigation links"></a><a name="navbar_top_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../microsoft/aspnet/signalr/client/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/Connection.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../index-files/index-1.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../microsoft/aspnet/signalr/client/CalendarSerializer.html" title="class in microsoft.aspnet.signalr.client"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?microsoft/aspnet/signalr/client/Connection.html" target="_top">Frames</a></li>
+<li><a href="Connection.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_top">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_top");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_top">
+<!--   -->
+</a></div>
+<!-- ========= END OF TOP NAVBAR ========= -->
+<!-- ======== START OF CLASS DATA ======== -->
+<div class="header">
+<div class="subTitle">microsoft.aspnet.signalr.client</div>
+<h2 title="Class Connection" class="title">Class Connection</h2>
+</div>
+<div class="contentContainer">
+<ul class="inheritance">
+<li>java.lang.Object</li>
+<li>
+<ul class="inheritance">
+<li>microsoft.aspnet.signalr.client.Connection</li>
+</ul>
+</li>
+</ul>
+<div class="description">
+<ul class="blockList">
+<li class="blockList">
+<dl>
+<dt>All Implemented Interfaces:</dt>
+<dd><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></dd>
+</dl>
+<hr>
+<br>
+<pre>public class <span class="strong">Connection</span>
+extends java.lang.Object
+implements <a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></pre>
+<div class="block">Represents a basic SingalR connection</div>
+</li>
+</ul>
+</div>
+<div class="summary">
+<ul class="blockList">
+<li class="blockList">
+<!-- =========== FIELD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_summary">
+<!--   -->
+</a>
+<h3>Field Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Field Summary table, listing fields, and an explanation">
+<caption><span>Fields</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Field and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>static <a href="../../../../microsoft/aspnet/signalr/client/Version.html" title="class in microsoft.aspnet.signalr.client">Version</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#PROTOCOL_VERSION">PROTOCOL_VERSION</a></strong></code>&nbsp;</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ======== CONSTRUCTOR SUMMARY ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_summary">
+<!--   -->
+</a>
+<h3>Constructor Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Constructor Summary table, listing constructors, and an explanation">
+<caption><span>Constructors</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colOne" scope="col">Constructor and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#Connection(java.lang.String)">Connection</a></strong>(java.lang.String&nbsp;url)</code>
+<div class="block">Initializes the connection with an URL</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#Connection(java.lang.String, microsoft.aspnet.signalr.client.Logger)">Connection</a></strong>(java.lang.String&nbsp;url,
+          <a href="../../../../microsoft/aspnet/signalr/client/Logger.html" title="interface in microsoft.aspnet.signalr.client">Logger</a>&nbsp;logger)</code>
+<div class="block">Initializes the connection with an URL and a logger</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colOne"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#Connection(java.lang.String, java.lang.String)">Connection</a></strong>(java.lang.String&nbsp;url,
+          java.lang.String&nbsp;queryString)</code>
+<div class="block">Initializes the connection with an URL and a query string</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colOne"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#Connection(java.lang.String, java.lang.String, microsoft.aspnet.signalr.client.Logger)">Connection</a></strong>(java.lang.String&nbsp;url,
+          java.lang.String&nbsp;queryString,
+          <a href="../../../../microsoft/aspnet/signalr/client/Logger.html" title="interface in microsoft.aspnet.signalr.client">Logger</a>&nbsp;logger)</code>
+<div class="block">Initializes the connection with an URL, a query string and a Logger</div>
+</td>
+</tr>
+</table>
+</li>
+</ul>
+<!-- ========== METHOD SUMMARY =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_summary">
+<!--   -->
+</a>
+<h3>Method Summary</h3>
+<table class="overviewSummary" border="0" cellpadding="3" cellspacing="0" summary="Method Summary table, listing methods, and an explanation">
+<caption><span>Methods</span><span class="tabEnd">&nbsp;</span></caption>
+<tr>
+<th class="colFirst" scope="col">Modifier and Type</th>
+<th class="colLast" scope="col">Method and Description</th>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#closed(java.lang.Runnable)">closed</a></strong>(java.lang.Runnable&nbsp;handler)</code>
+<div class="block">Sets the handler for the "Closed" event</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#connected(java.lang.Runnable)">connected</a></strong>(java.lang.Runnable&nbsp;handler)</code>
+<div class="block">Sets the handler for the "Connected" event</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#connectionSlow(java.lang.Runnable)">connectionSlow</a></strong>(java.lang.Runnable&nbsp;handler)</code>
+<div class="block">Sets the handler for the "ConnectionSlow" event</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#disconnect()">disconnect</a></strong>()</code>
+<div class="block">Closes the connection</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#error(microsoft.aspnet.signalr.client.ErrorCallback)">error</a></strong>(<a href="../../../../microsoft/aspnet/signalr/client/ErrorCallback.html" title="interface in microsoft.aspnet.signalr.client">ErrorCallback</a>&nbsp;handler)</code>
+<div class="block">Sets the handler for the "Error" event</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getConnectionData()">getConnectionData</a></strong>()</code>
+<div class="block">Returns the data used by the connection</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getConnectionId()">getConnectionId</a></strong>()</code>
+<div class="block">Returns the connection Id</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getConnectionToken()">getConnectionToken</a></strong>()</code>
+<div class="block">Returns the connection token</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../microsoft/aspnet/signalr/client/Credentials.html" title="interface in microsoft.aspnet.signalr.client">Credentials</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getCredentials()">getCredentials</a></strong>()</code>
+<div class="block">Returns the credentials used by the connection</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getGroupsToken()">getGroupsToken</a></strong>()</code>
+<div class="block">Returns the connection groups token</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>com.google.gson.Gson</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getGson()">getGson</a></strong>()</code>
+<div class="block">Returns the Gson instance used by the connection</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.util.Map&lt;java.lang.String,java.lang.String&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getHeaders()">getHeaders</a></strong>()</code>
+<div class="block">Returns the connection headers</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>com.google.gson.JsonParser</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getJsonParser()">getJsonParser</a></strong>()</code>
+<div class="block">Returns the JsonParser used by the connection</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../microsoft/aspnet/signalr/client/Logger.html" title="interface in microsoft.aspnet.signalr.client">Logger</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getLogger()">getLogger</a></strong>()</code>
+<div class="block">Returns the Logger used by the connection</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getMessageId()">getMessageId</a></strong>()</code>
+<div class="block">Returns the current message Id</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getQueryString()">getQueryString</a></strong>()</code>
+<div class="block">Returns the query string used by the connection</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionState.html" title="enum in microsoft.aspnet.signalr.client">ConnectionState</a></code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getState()">getState</a></strong>()</code>
+<div class="block">Returns the connection state</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>java.lang.String</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#getUrl()">getUrl</a></strong>()</code>
+<div class="block">Returns the URL used by the connection</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#onError(java.lang.Throwable, boolean)">onError</a></strong>(java.lang.Throwable&nbsp;error,
+       boolean&nbsp;mustCleanCurrentConnection)</code>
+<div class="block">Triggers the Error event</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#onReceived(com.google.gson.JsonElement)">onReceived</a></strong>(com.google.gson.JsonElement&nbsp;message)</code>&nbsp;</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#prepareRequest(microsoft.aspnet.signalr.client.http.Request)">prepareRequest</a></strong>(microsoft.aspnet.signalr.client.http.Request&nbsp;request)</code>
+<div class="block">Prepares a request that is going to be sent to the server</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#received(microsoft.aspnet.signalr.client.MessageReceivedHandler)">received</a></strong>(<a href="../../../../microsoft/aspnet/signalr/client/MessageReceivedHandler.html" title="interface in microsoft.aspnet.signalr.client">MessageReceivedHandler</a>&nbsp;handler)</code>
+<div class="block">Sets the handler for the "Received" event</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#reconnected(java.lang.Runnable)">reconnected</a></strong>(java.lang.Runnable&nbsp;handler)</code>
+<div class="block">Sets the handler for the "Reconnected" event</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#reconnecting(java.lang.Runnable)">reconnecting</a></strong>(java.lang.Runnable&nbsp;handler)</code>
+<div class="block">Sets the handler for the "Reconnecting" event</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#send(java.lang.Object)">send</a></strong>(java.lang.Object&nbsp;object)</code>
+<div class="block">Sends a serialized object</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#send(java.lang.String)">send</a></strong>(java.lang.String&nbsp;data)</code>
+<div class="block">Sends data using the connection</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#setCredentials(microsoft.aspnet.signalr.client.Credentials)">setCredentials</a></strong>(<a href="../../../../microsoft/aspnet/signalr/client/Credentials.html" title="interface in microsoft.aspnet.signalr.client">Credentials</a>&nbsp;credentials)</code>
+<div class="block">Sets the credentials the connection should use</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#setGroupsToken(java.lang.String)">setGroupsToken</a></strong>(java.lang.String&nbsp;groupsToken)</code>
+<div class="block">Sets the groups token the connection should use</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#setMessageId(java.lang.String)">setMessageId</a></strong>(java.lang.String&nbsp;messageId)</code>
+<div class="block">Sets the message id the connection should use</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code><a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#start()">start</a></strong>()</code>
+<div class="block">Starts the connection using the best available transport</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code><a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#start(microsoft.aspnet.signalr.client.transport.ClientTransport)">start</a></strong>(microsoft.aspnet.signalr.client.transport.ClientTransport&nbsp;transport)</code>
+<div class="block">Starts the connection</div>
+</td>
+</tr>
+<tr class="rowColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#stateChanged(microsoft.aspnet.signalr.client.StateChangedCallback)">stateChanged</a></strong>(<a href="../../../../microsoft/aspnet/signalr/client/StateChangedCallback.html" title="interface in microsoft.aspnet.signalr.client">StateChangedCallback</a>&nbsp;handler)</code>
+<div class="block">Sets the handler for the "StateChanged" event</div>
+</td>
+</tr>
+<tr class="altColor">
+<td class="colFirst"><code>void</code></td>
+<td class="colLast"><code><strong><a href="../../../../microsoft/aspnet/signalr/client/Connection.html#stop()">stop</a></strong>()</code>
+<div class="block">Aborts the connection and closes it</div>
+</td>
+</tr>
+</table>
+<ul class="blockList">
+<li class="blockList"><a name="methods_inherited_from_class_java.lang.Object">
+<!--   -->
+</a>
+<h3>Methods inherited from class&nbsp;java.lang.Object</h3>
+<code>equals, getClass, hashCode, notify, notifyAll, toString, wait, wait, wait</code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+<div class="details">
+<ul class="blockList">
+<li class="blockList">
+<!-- ============ FIELD DETAIL =========== -->
+<ul class="blockList">
+<li class="blockList"><a name="field_detail">
+<!--   -->
+</a>
+<h3>Field Detail</h3>
+<a name="PROTOCOL_VERSION">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>PROTOCOL_VERSION</h4>
+<pre>public static final&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/Version.html" title="class in microsoft.aspnet.signalr.client">Version</a> PROTOCOL_VERSION</pre>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ========= CONSTRUCTOR DETAIL ======== -->
+<ul class="blockList">
+<li class="blockList"><a name="constructor_detail">
+<!--   -->
+</a>
+<h3>Constructor Detail</h3>
+<a name="Connection(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>Connection</h4>
+<pre>public&nbsp;Connection(java.lang.String&nbsp;url)</pre>
+<div class="block">Initializes the connection with an URL</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>url</code> - The connection URL</dd></dl>
+</li>
+</ul>
+<a name="Connection(java.lang.String, microsoft.aspnet.signalr.client.Logger)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>Connection</h4>
+<pre>public&nbsp;Connection(java.lang.String&nbsp;url,
+          <a href="../../../../microsoft/aspnet/signalr/client/Logger.html" title="interface in microsoft.aspnet.signalr.client">Logger</a>&nbsp;logger)</pre>
+<div class="block">Initializes the connection with an URL and a logger</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>url</code> - The connection URL</dd><dd><code>logger</code> - The connection logger</dd></dl>
+</li>
+</ul>
+<a name="Connection(java.lang.String, java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>Connection</h4>
+<pre>public&nbsp;Connection(java.lang.String&nbsp;url,
+          java.lang.String&nbsp;queryString)</pre>
+<div class="block">Initializes the connection with an URL and a query string</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>url</code> - The connection URL</dd><dd><code>queryString</code> - The connection query string</dd></dl>
+</li>
+</ul>
+<a name="Connection(java.lang.String, java.lang.String, microsoft.aspnet.signalr.client.Logger)">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>Connection</h4>
+<pre>public&nbsp;Connection(java.lang.String&nbsp;url,
+          java.lang.String&nbsp;queryString,
+          <a href="../../../../microsoft/aspnet/signalr/client/Logger.html" title="interface in microsoft.aspnet.signalr.client">Logger</a>&nbsp;logger)</pre>
+<div class="block">Initializes the connection with an URL, a query string and a Logger</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>url</code> - The connection URL</dd><dd><code>queryString</code> - The connection query string</dd><dd><code>logger</code> - The connection logger</dd></dl>
+</li>
+</ul>
+</li>
+</ul>
+<!-- ============ METHOD DETAIL ========== -->
+<ul class="blockList">
+<li class="blockList"><a name="method_detail">
+<!--   -->
+</a>
+<h3>Method Detail</h3>
+<a name="closed(java.lang.Runnable)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>closed</h4>
+<pre>public&nbsp;void&nbsp;closed(java.lang.Runnable&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#closed(java.lang.Runnable)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "Closed" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#closed(java.lang.Runnable)">closed</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="connected(java.lang.Runnable)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>connected</h4>
+<pre>public&nbsp;void&nbsp;connected(java.lang.Runnable&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#connected(java.lang.Runnable)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "Connected" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#connected(java.lang.Runnable)">connected</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="connectionSlow(java.lang.Runnable)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>connectionSlow</h4>
+<pre>public&nbsp;void&nbsp;connectionSlow(java.lang.Runnable&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#connectionSlow(java.lang.Runnable)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "ConnectionSlow" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#connectionSlow(java.lang.Runnable)">connectionSlow</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="disconnect()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>disconnect</h4>
+<pre>public&nbsp;void&nbsp;disconnect()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#disconnect()">ConnectionBase</a></code></strong></div>
+<div class="block">Closes the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#disconnect()">disconnect</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="error(microsoft.aspnet.signalr.client.ErrorCallback)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>error</h4>
+<pre>public&nbsp;void&nbsp;error(<a href="../../../../microsoft/aspnet/signalr/client/ErrorCallback.html" title="interface in microsoft.aspnet.signalr.client">ErrorCallback</a>&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#error(microsoft.aspnet.signalr.client.ErrorCallback)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "Error" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#error(microsoft.aspnet.signalr.client.ErrorCallback)">error</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getConnectionData()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getConnectionData</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getConnectionData()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getConnectionData()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the data used by the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getConnectionData()">getConnectionData</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getConnectionId()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getConnectionId</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getConnectionId()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getConnectionId()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the connection Id</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getConnectionId()">getConnectionId</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getConnectionToken()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getConnectionToken</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getConnectionToken()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getConnectionToken()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the connection token</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getConnectionToken()">getConnectionToken</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getCredentials()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getCredentials</h4>
+<pre>public&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/Credentials.html" title="interface in microsoft.aspnet.signalr.client">Credentials</a>&nbsp;getCredentials()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getCredentials()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the credentials used by the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getCredentials()">getCredentials</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getGroupsToken()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getGroupsToken</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getGroupsToken()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getGroupsToken()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the connection groups token</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getGroupsToken()">getGroupsToken</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getGson()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getGson</h4>
+<pre>public&nbsp;com.google.gson.Gson&nbsp;getGson()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getGson()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the Gson instance used by the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getGson()">getGson</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getHeaders()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getHeaders</h4>
+<pre>public&nbsp;java.util.Map&lt;java.lang.String,java.lang.String&gt;&nbsp;getHeaders()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getHeaders()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the connection headers</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getHeaders()">getHeaders</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getJsonParser()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getJsonParser</h4>
+<pre>public&nbsp;com.google.gson.JsonParser&nbsp;getJsonParser()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getJsonParser()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the JsonParser used by the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getJsonParser()">getJsonParser</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getLogger()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getLogger</h4>
+<pre>public&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/Logger.html" title="interface in microsoft.aspnet.signalr.client">Logger</a>&nbsp;getLogger()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getLogger()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the Logger used by the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getLogger()">getLogger</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getMessageId()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getMessageId</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getMessageId()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getMessageId()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the current message Id</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getMessageId()">getMessageId</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getQueryString()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getQueryString</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getQueryString()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getQueryString()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the query string used by the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getQueryString()">getQueryString</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getState()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getState</h4>
+<pre>public&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/ConnectionState.html" title="enum in microsoft.aspnet.signalr.client">ConnectionState</a>&nbsp;getState()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getState()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the connection state</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getState()">getState</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="getUrl()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>getUrl</h4>
+<pre>public&nbsp;java.lang.String&nbsp;getUrl()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getUrl()">ConnectionBase</a></code></strong></div>
+<div class="block">Returns the URL used by the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#getUrl()">getUrl</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="onError(java.lang.Throwable, boolean)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>onError</h4>
+<pre>public&nbsp;void&nbsp;onError(java.lang.Throwable&nbsp;error,
+           boolean&nbsp;mustCleanCurrentConnection)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#onError(java.lang.Throwable, boolean)">ConnectionBase</a></code></strong></div>
+<div class="block">Triggers the Error event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#onError(java.lang.Throwable, boolean)">onError</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>error</code> - The error that triggered the event</dd><dd><code>mustCleanCurrentConnection</code> - True if the connection must be cleaned</dd></dl>
+</li>
+</ul>
+<a name="onReceived(com.google.gson.JsonElement)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>onReceived</h4>
+<pre>public&nbsp;void&nbsp;onReceived(com.google.gson.JsonElement&nbsp;message)</pre>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#onReceived(com.google.gson.JsonElement)">onReceived</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="prepareRequest(microsoft.aspnet.signalr.client.http.Request)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>prepareRequest</h4>
+<pre>public&nbsp;void&nbsp;prepareRequest(microsoft.aspnet.signalr.client.http.Request&nbsp;request)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#prepareRequest(microsoft.aspnet.signalr.client.http.Request)">ConnectionBase</a></code></strong></div>
+<div class="block">Prepares a request that is going to be sent to the server</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#prepareRequest(microsoft.aspnet.signalr.client.http.Request)">prepareRequest</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>request</code> - The request to prepare</dd></dl>
+</li>
+</ul>
+<a name="received(microsoft.aspnet.signalr.client.MessageReceivedHandler)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>received</h4>
+<pre>public&nbsp;void&nbsp;received(<a href="../../../../microsoft/aspnet/signalr/client/MessageReceivedHandler.html" title="interface in microsoft.aspnet.signalr.client">MessageReceivedHandler</a>&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#received(microsoft.aspnet.signalr.client.MessageReceivedHandler)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "Received" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#received(microsoft.aspnet.signalr.client.MessageReceivedHandler)">received</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="reconnected(java.lang.Runnable)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reconnected</h4>
+<pre>public&nbsp;void&nbsp;reconnected(java.lang.Runnable&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#reconnected(java.lang.Runnable)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "Reconnected" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#reconnected(java.lang.Runnable)">reconnected</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="reconnecting(java.lang.Runnable)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>reconnecting</h4>
+<pre>public&nbsp;void&nbsp;reconnecting(java.lang.Runnable&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#reconnecting(java.lang.Runnable)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "Reconnecting" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#reconnecting(java.lang.Runnable)">reconnecting</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="send(java.lang.Object)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>send</h4>
+<pre>public&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;&nbsp;send(java.lang.Object&nbsp;object)</pre>
+<div class="block">Sends a serialized object</div>
+<dl><dt><span class="strong">Parameters:</span></dt><dd><code>object</code> - The object to send. If the object is a JsonElement, its string
+            representation is sent. Otherwise, the object is serialized to
+            Json.</dd>
+<dt><span class="strong">Returns:</span></dt><dd>A Future for the operation</dd></dl>
+</li>
+</ul>
+<a name="send(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>send</h4>
+<pre>public&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;&nbsp;send(java.lang.String&nbsp;data)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#send(java.lang.String)">ConnectionBase</a></code></strong></div>
+<div class="block">Sends data using the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#send(java.lang.String)">send</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>data</code> - Data to send</dd>
+<dt><span class="strong">Returns:</span></dt><dd>Future for the operation</dd></dl>
+</li>
+</ul>
+<a name="setCredentials(microsoft.aspnet.signalr.client.Credentials)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setCredentials</h4>
+<pre>public&nbsp;void&nbsp;setCredentials(<a href="../../../../microsoft/aspnet/signalr/client/Credentials.html" title="interface in microsoft.aspnet.signalr.client">Credentials</a>&nbsp;credentials)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#setCredentials(microsoft.aspnet.signalr.client.Credentials)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the credentials the connection should use</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#setCredentials(microsoft.aspnet.signalr.client.Credentials)">setCredentials</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="setGroupsToken(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setGroupsToken</h4>
+<pre>public&nbsp;void&nbsp;setGroupsToken(java.lang.String&nbsp;groupsToken)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#setGroupsToken(java.lang.String)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the groups token the connection should use</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#setGroupsToken(java.lang.String)">setGroupsToken</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="setMessageId(java.lang.String)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>setMessageId</h4>
+<pre>public&nbsp;void&nbsp;setMessageId(java.lang.String&nbsp;messageId)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#setMessageId(java.lang.String)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the message id the connection should use</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#setMessageId(java.lang.String)">setMessageId</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="start()">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>start</h4>
+<pre>public&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;&nbsp;start()</pre>
+<div class="block">Starts the connection using the best available transport</div>
+<dl><dt><span class="strong">Returns:</span></dt><dd>A Future for the operation</dd></dl>
+</li>
+</ul>
+<a name="start(microsoft.aspnet.signalr.client.transport.ClientTransport)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>start</h4>
+<pre>public&nbsp;<a href="../../../../microsoft/aspnet/signalr/client/SignalRFuture.html" title="class in microsoft.aspnet.signalr.client">SignalRFuture</a>&lt;java.lang.Void&gt;&nbsp;start(microsoft.aspnet.signalr.client.transport.ClientTransport&nbsp;transport)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#start(microsoft.aspnet.signalr.client.transport.ClientTransport)">ConnectionBase</a></code></strong></div>
+<div class="block">Starts the connection</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#start(microsoft.aspnet.signalr.client.transport.ClientTransport)">start</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+<dt><span class="strong">Parameters:</span></dt><dd><code>transport</code> - Transport to be used by the connection</dd>
+<dt><span class="strong">Returns:</span></dt><dd>Future for the operation</dd></dl>
+</li>
+</ul>
+<a name="stateChanged(microsoft.aspnet.signalr.client.StateChangedCallback)">
+<!--   -->
+</a>
+<ul class="blockList">
+<li class="blockList">
+<h4>stateChanged</h4>
+<pre>public&nbsp;void&nbsp;stateChanged(<a href="../../../../microsoft/aspnet/signalr/client/StateChangedCallback.html" title="interface in microsoft.aspnet.signalr.client">StateChangedCallback</a>&nbsp;handler)</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#stateChanged(microsoft.aspnet.signalr.client.StateChangedCallback)">ConnectionBase</a></code></strong></div>
+<div class="block">Sets the handler for the "StateChanged" event</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#stateChanged(microsoft.aspnet.signalr.client.StateChangedCallback)">stateChanged</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+<a name="stop()">
+<!--   -->
+</a>
+<ul class="blockListLast">
+<li class="blockList">
+<h4>stop</h4>
+<pre>public&nbsp;void&nbsp;stop()</pre>
+<div class="block"><strong>Description copied from interface:&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#stop()">ConnectionBase</a></code></strong></div>
+<div class="block">Aborts the connection and closes it</div>
+<dl>
+<dt><strong>Specified by:</strong></dt>
+<dd><code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html#stop()">stop</a></code>&nbsp;in interface&nbsp;<code><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client">ConnectionBase</a></code></dd>
+</dl>
+</li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</div>
+<!-- ========= END OF CLASS DATA ========= -->
+<!-- ======= START OF BOTTOM NAVBAR ====== -->
+<div class="bottomNav"><a name="navbar_bottom">
+<!--   -->
+</a><a href="#skip-navbar_bottom" title="Skip navigation links"></a><a name="navbar_bottom_firstrow">
+<!--   -->
+</a>
+<ul class="navList" title="Navigation">
+<li><a href="../../../../microsoft/aspnet/signalr/client/package-summary.html">Package</a></li>
+<li class="navBarCell1Rev">Class</li>
+<li><a href="class-use/Connection.html">Use</a></li>
+<li><a href="package-tree.html">Tree</a></li>
+<li><a href="../../../../index-files/index-1.html">Index</a></li>
+<li><a href="../../../../help-doc.html">Help</a></li>
+</ul>
+</div>
+<div class="subNav">
+<ul class="navList">
+<li><a href="../../../../microsoft/aspnet/signalr/client/CalendarSerializer.html" title="class in microsoft.aspnet.signalr.client"><span class="strong">Prev Class</span></a></li>
+<li><a href="../../../../microsoft/aspnet/signalr/client/ConnectionBase.html" title="interface in microsoft.aspnet.signalr.client"><span class="strong">Next Class</span></a></li>
+</ul>
+<ul class="navList">
+<li><a href="../../../../index.html?microsoft/aspnet/signalr/client/Connection.html" target="_top">Frames</a></li>
+<li><a href="Connection.html" target="_top">No Frames</a></li>
+</ul>
+<ul class="navList" id="allclasses_navbar_bottom">
+<li><a href="../../../../allclasses-noframe.html">All Classes</a></li>
+</ul>
+<div>
+<script type="text/javascript"><!--
+  allClassesLink = document.getElementById("allclasses_navbar_bottom");
+  if(window==top) {
+    allClassesLink.style.display = "block";
+  }
+  else {
+    allClassesLink.style.display = "none";
+  }
+  //-->
+</script>
+</div>
+<div>
+<ul class="subNavList">
+<li>Summary:&nbsp;</li>
+<li>Nested&nbsp;|&nbsp;</li>
+<li><a href="#field_summary">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_summary">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_summary">Method</a></li>
+</ul>
+<ul class="subNavList">
+<li>Detail:&nbsp;</li>
+<li><a href="#field_detail">Field</a>&nbsp;|&nbsp;</li>
+<li><a href="#constructor_detail">Constr</a>&nbsp;|&nbsp;</li>
+<li><a href="#method_detail">Method</a></li>
+</ul>
+</div>
+<a name="skip-navbar_bottom">
+<!--   -->
+</a></div>
+<!-- ======== END OF BOTTOM NAVBAR ======= -->
+</body>
+</html>
